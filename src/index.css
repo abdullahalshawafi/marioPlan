@@ -23,12 +23,19 @@ code {
 
 nav ul span {
   padding: 0 15px;
+}
+
+nav ul li {
   cursor: pointer;
+}
+
+nav ul li:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 form {
   padding: 20px;
-  margin-top: 60px;
+  margin: 60px 0;
 }
 
 form button,

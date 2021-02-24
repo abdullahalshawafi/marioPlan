@@ -8,10 +8,8 @@ function SignedInLinks({ signOut }) {
       <li>
         <NavLink to="/create-project">New Project</NavLink>
       </li>
-      <li>
-        <span onClick={signOut}>
-          Log Out
-        </span>
+      <li onClick={signOut}>
+        <span>Log Out</span>
       </li>
       <li>
         <NavLink to="/" className="btn btn-floating pink lighten-1">
