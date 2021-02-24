@@ -21,6 +21,11 @@ code {
     monospace;
 }
 
+nav ul span {
+  padding: 0 15px;
+  cursor: pointer;
+}
+
 form {
   padding: 20px;
   margin-top: 60px;
